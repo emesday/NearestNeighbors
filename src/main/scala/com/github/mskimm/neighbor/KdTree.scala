@@ -52,6 +52,8 @@ object KdRect {
 
 }
 
+// Scala implementation of
+// https://sourceforge.net/p/java-ml/java-ml-code/ci/master/tree/src/net/sf/javaml/core/kdtree/KDTree.java
 class KdTree[A](k: Int) extends NearestNeighbors[A](k)
   with EuclideanMetric {
 
